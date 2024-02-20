@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  projet:
+    build: .
+    ports:
+      - "3669:3669"
+    volumes:
+      - ./app:/app
+
+      
